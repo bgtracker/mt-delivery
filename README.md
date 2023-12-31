@@ -38,13 +38,13 @@ At Config.TargetModels:
         options = {
             {
                 type = "client",
-                event = "mt-delivery:client:PedirEntrega",
+                event = "amz-delivery:client:PedirEntrega",
                 icon = "fas fa-taco", 
                 label = "Request Delivery",
             },
             {
                 type = "client",
-                event = "mt-delivery:client:ReceberPagamento",
+                event = "amz-delivery:client:ReceberPagamento",
                 icon = "fas fa-dolar", 
                 label = "Recive Payment",
                 item = "delivery_recive",
